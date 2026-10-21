@@ -105,7 +105,7 @@ The main tasks for this exercise are as follows:
 
 4. Navigate to Manifest under the Mange section, find the item '"tags": [],' normally line 28. Enter
    ```powershell
-   **"kdc_enable_cloud_group_sids"**
+   "kdc_enable_cloud_group_sids"
    ```
    including the quote marks between the brackets, then save the file.
 
