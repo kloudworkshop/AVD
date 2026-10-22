@@ -83,7 +83,7 @@ Since none of these criteria apply to the lab computer, it is necessary to add `
 
 #### Task 2: Install Microsoft Remote Desktop client on a Windows 11 computer
 
-1. From the lab computer, start a web browser, navigate to the [Whatt's new in Windows App](https://learn.microsoft.com/en-us/windows-app/whats-new?toc=admins%2Ftoc.json&tabs=windows) page, scroll down to the section **Download and install the Remote Desktop client (MSI)**, and select the [Windows 64-bit](https://go.microsoft.com/fwlink/?linkid=2262633) link. 
+1. From the lab computer, start a web browser, navigate to the [What's new in Windows App](https://learn.microsoft.com/en-us/windows-app/whats-new?toc=admins%2Ftoc.json&tabs=windows) page, scroll down to the section **Download and install the Remote Desktop client (MSI)**, and select the [Windows 64-bit](https://go.microsoft.com/fwlink/?linkid=2262633) link. 
 1. Open File Explorer, navigate to the **Downloads** folder, and launch the installation of the newly downloaded MSIX file. 
 1. In the **Install Windows App** window,  click **Install**. At the new app page sign in with as User1 (with full upn).
 1. You can advance through the pages or press skip.
