@@ -128,7 +128,7 @@ The main tasks for this exercise are as follows:
 
 2. From the list select the storage account you created earlier, under the Data storage section select File share then select the share fxlogix.
 
-3. On the fxlogix page select browse, then select the + Add directory link, enter the name Profiles in the box and press ok.
+3. On the fxlogix page select browse, then select the **+ Add directory** link, enter the name **Profiles** in the New directory box and press ok.
 
 4. On the fxlogix page select the elipse next to the Profiles folder and then select Manage access,on the Manage access page leave the Creator owner and then remove all the other users and groups. In the display pane press the edit pencil next to the Creator owner, set the following permissions then press done.
 
