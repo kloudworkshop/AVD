@@ -356,15 +356,16 @@ The main tasks for this exercise are as follows:
 1. When prompted, select **Connect** and then, in the **Windows Security** dialog box, enter the user name and password you specified when deploying the Azure VM.
 1. When prompted for confirmation, select **Connect** again.
 1. Within the Remote Desktop session to **az140-111-vm0**, choose and accept your preferred privacy settings.
-1. Within the Remote Desktop session to **az140-111-vm0**, start Microsoft Edge, navigate to the [Connect to Azure Virtual Desktop with the Remote Desktop client for Windows](https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/connect-windows-cloud-services?tabs=windows-msrdc-msi) page, scroll down to the section **Download and install the Remote Desktop client (MSI)**, and select the [Windows 64-bit](https://go.microsoft.com/fwlink/?linkid=2139369) link. 
-1. Open File Explorer, navigate to the **Downloads** folder, and launch the installation of the newly downloaded MSI file. 
-1. When prompted, accept the terms of the licensing agreement and choose the option to **Install for all users of this machine**. If prompted, accept the User Account Control prompt to proceed with the installation. 
-1. Once the installation completes, ensure that the **Launch Remote Desktop when setup exits** checkbox is selected and select **Finish** to start the Microsoft Remote Desktop client.
-1. Within the Remote Desktop session to **az140-111-vm0**, in the **Remote Desktop** client window, select **Subscribe** and, when prompted, sign in with the credentials of the `User2` Entra ID.
+1. Within the Remote Desktop session to **az140-111-vm0**, 1. From the lab computer, start a web browser, navigate to the [What's new in Windows App](https://learn.microsoft.com/en-us/windows-app/whats-new?toc=admins%2Ftoc.json&tabs=windows) page, scroll down and select [Download Windows App from the Microsoft Store](https://apps.microsoft.com/detail/9N1F85V9T8BN). 
+1. On the web page click download.
+1. On completion of the download run the install file.
+1. Once installed sign in using the credentials of User2
+1. After signing in click skip at the bottom of the page. 
+
 
    > **Note**: Select the user account which is the member of the Entra group with the **AVD-RemoteApp** prefix.
 
-1. Ensure that the **Remote Desktop** page displays four icons, including Command Prompt, Microsoft Word, Microsoft Excel, Microsoft PowerPoint. 
+1. Ensure that the **Windows App** page displays four icons, including Command Prompt, Microsoft Word, Microsoft Excel, Microsoft PowerPoint. 
 1. Double-click the Command Prompt icon. 
 1. When prompted to sign in, in the **Windows Security** dialog box, enter the password of the same Microsoft Entra user account you used to connect to the target Azure Virtual Desktop environment.
 1. Verify that a **Command Prompt** window appears shortly afterwards. 
